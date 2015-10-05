@@ -1,0 +1,25 @@
+{
+  "name": "catberry-coffee",
+  "version": "1.0.0",
+  "description": "Catberry plugin for CoffeeScript Browserify-Transformation based on Babelify",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mass3ff3ct/catberry-coffee.git"
+  },
+  "keywords": [
+    "catberry",
+    "catberry-transform",
+    "coffeeify",
+    "coffescript",
+    "browserify",
+    "transform"
+  ],
+  "author": {
+    "name": "Pavel Sokolov",
+    "email": "mass3ff3ct@mail.ru"
+  },
+  "dependencies": {
+    "coffeeify": "^1.1.0"
+  }
+}
