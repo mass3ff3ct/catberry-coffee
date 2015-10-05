@@ -1,15 +1,15 @@
 # Catberry CoffeeScript
 
-[Coffeeify](https://github.com/jnordberg/coffeeify) [browserify](https://github.com/substack/node-browserify) трансформация для Catberry.
+[Coffeeify](https://github.com/jnordberg/coffeeify) [browserify](https://github.com/substack/node-browserify) С‚СЂР°РЅСЃС„РѕСЂРјР°С†РёСЏ РґР»СЏ Catberry.
 
-## Установка
+## РЈСЃС‚Р°РЅРѕРІРєР°
 
 ```
 $ npm install --save catberry-coffee
 ```
     
-## Использование
-Зарегистрируйте плагин `catberry-coffee` в `build.js`:
+## РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ
+Р—Р°СЂРµРіРёСЃС‚СЂРёСЂСѓР№С‚Рµ РїР»Р°РіРёРЅ `catberry-coffee` РІ `build.js`:
 
 build.js:
 ```javascript
@@ -22,7 +22,7 @@ coffee.register(cat.locator);
 cat.build();
 ```
 
-## Поддержка на сервере
+## РџРѕРґРґРµСЂР¶РєР° РЅР° СЃРµСЂРІРµСЂРµ
  
 server.js:
 ```javascript
@@ -32,4 +32,4 @@ var catberry = require('catberry');
 ...
 ```
 
-Павел Соколов <mass3ff3ct@mail.ru>
+РџР°РІРµР» РЎРѕРєРѕР»РѕРІ <mass3ff3ct@mail.ru>
