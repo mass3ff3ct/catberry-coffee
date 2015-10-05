@@ -13,6 +13,7 @@ $ npm install --save catberry-coffee
 
 build.js:
 ```javascript
+require('coffee-script/register');
 var catberry = require('catberry');
 var coffee = require('catberry-coffee');
 
@@ -22,8 +23,6 @@ coffee.register(cat.locator);
 cat.build();
 ```
 
-## Поддержка на сервере
- 
 server.js:
 ```javascript
 require('coffee-script/register');
