@@ -1,6 +1,6 @@
 {
   "name": "catberry-coffee",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Catberry plugin for CoffeeScript Browserify-Transformation based on Babelify",
   "main": "index.js",
   "repository": {
